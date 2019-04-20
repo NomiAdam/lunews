@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`uiReducer uiReducerActionCreators should match the snapshot for setNotification 1`] = `
+Object {
+  "payload": "mock",
+  "type": "ui/SET_NOTIFICATION",
+}
+`;
+
+exports[`uiReducer uiReducerActionCreators should match the snapshot for setOfflineDialog 1`] = `
+Object {
+  "payload": "mock",
+  "type": "ui/SET_OFFLINE_DIALOG",
+}
+`;
+
+exports[`uiReducer uiReducerActionCreators should match the snapshot for setSearchValue 1`] = `
+Object {
+  "payload": "mock",
+  "type": "ui/SET_SEARCH_VALUE",
+}
+`;
+
+exports[`uiReducer uiReducerActionCreators should match the snapshot for setStatePosition 1`] = `
+Object {
+  "payload": "mock",
+  "type": "ui/SET_STATE_POSITION",
+}
+`;
+
+exports[`uiReducer uiReducerActionCreators should match the snapshot for setStatePosition 2`] = `
+Object {
+  "payload": "mock",
+  "type": "ui/SET_NAVIGATION",
+}
+`;
+
+exports[`uiReducer uiReducerActionCreators should match the snapshot for unsetNotification 1`] = `
+Object {
+  "type": "ui/CLEAR_NOTIFICATION",
+}
+`;

@@ -1,0 +1,59 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.fileInput {
+  text-decoration: none;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  transition: .5s all ease;
+  z-index: -1;
+}
+
+.fileInput:focus {
+  outline: none;
+}
+
+.fileInput + label {
+  padding: 5px 10px;
+  font-size: 1.25em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 200px;
+  transition: .5s all ease;
+  margin: 0 25px 0 0;
+}
+
+.darkMode {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.lightMode {
+  border: 1px solid dodgerblue;
+  color: black;
+  background-color: transparent;
+}
+
+.fileInput + label {
+  cursor: pointer;
+}
+
+.fileInput:focus + label {
+  outline: none;
+}
+
+.fileInput + label * {
+  pointer-events: none;
+}

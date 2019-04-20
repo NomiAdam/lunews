@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article should match the snapshot 1`] = `
+<div>
+  <OverlayHeading
+    handleIconClick={[Function]}
+    heading="Article"
+    isOpen={false}
+    verticalPosition="center"
+  />
+  <NewsTree
+    article={
+      Object {
+        "lines": Array [],
+        "messageID": "",
+      }
+    }
+    dispatchReply={[Function]}
+    replies={Array []}
+  />
+  <Spacer
+    height="63px"
+    width="100%"
+  />
+  <OverlayForm
+    handleClose={[Function]}
+    handlePost={[Function]}
+    isOpen={false}
+  />
+</div>
+`;

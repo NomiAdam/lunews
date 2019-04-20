@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should match the snapshot 1`] = `
+<styled.div
+  gridGap="10px"
+  padding="10px"
+>
+  <styled.div
+    colXS={12}
+  >
+    <NavigationProfile
+      favouriteCount={0}
+      groupCount={0}
+    />
+  </styled.div>
+  <styled.div
+    colXS={12}
+  >
+    <Divider
+      color="#bbbbbb"
+      type="dashed"
+    />
+  </styled.div>
+  <Component
+    favouriteGroups={Array []}
+    groups={Array []}
+    handleGroupChange={[Function]}
+  />
+</styled.div>
+`;

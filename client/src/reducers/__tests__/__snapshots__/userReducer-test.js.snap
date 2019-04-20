@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userReducer userReducerActionCreators should match the snapshot for logoutUser 1`] = `
+Object {
+  "type": "user/LOGOUT_USER",
+}
+`;
+
+exports[`userReducer userReducerActionCreators should match the snapshot for setOffline 1`] = `[Function]`;
+
+exports[`userReducer userReducerActionCreators should match the snapshot for setUser 1`] = `
+Object {
+  "payload": "mock",
+  "type": "user/LOGIN_USER",
+}
+`;

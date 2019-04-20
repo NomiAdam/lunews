@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`groupReducer groupReducerActionCreators should match the snapshot for setActiveGroup 1`] = `
+Object {
+  "payload": "mock",
+  "type": "news/SELECT_GROUP",
+}
+`;
+
+exports[`groupReducer groupReducerActionCreators should match the snapshot for setGroupThreadCount 1`] = `
+Object {
+  "payload": "mock",
+  "type": "news/FETCH_THREAD_COUNT",
+}
+`;

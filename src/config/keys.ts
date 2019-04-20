@@ -1,0 +1,7 @@
+import prodKeys from './prod';
+import devKeys from './dev';
+import { Keys } from './types/keys';
+
+export const keys: Keys = (process.env.NODE_ENV === 'production')
+    ? prodKeys
+    : devKeys;
