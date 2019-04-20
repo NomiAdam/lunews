@@ -3,7 +3,7 @@ import groupReducer from '../reducers/groupReducer';
 
 const DEFAULT_STATE = {
     group: {
-        selected: 'hkfree.test',
+        selected: undefined,
         messageID: undefined,
         focusedMessage: undefined,
         isStarred: undefined,
