@@ -16,6 +16,7 @@
 1.	npm run install:server
 2.	npm run install:client
 3.	npm run build
+3.	npm run create:database
 4.	npm run start
 
 // Using Docker

@@ -28,7 +28,7 @@ RUN npm install
 RUN npm run build:server
 
 # Run docker setup
-RUN npm run build:docker
+RUN npm run create:database
 
 # Install all client dependencies and build
 RUN cd ./client && npm install && npm run build

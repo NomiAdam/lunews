@@ -13,7 +13,7 @@
     "client": "node ./client/scripts/start.js --prefix client",
     "install:server": "npm install",
     "install:client": "npm run --prefix ./client install:prod",
-    "build:docker": "node ./dist/DockerSetup.js",
+    "create:database": "node ./dist/DatabaseSetup.js",
     "build:server": "tsc --skipLibCheck",
     "build:client": "npm run --prefix ./client build",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
