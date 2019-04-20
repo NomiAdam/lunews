@@ -12,6 +12,7 @@ import logger from 'koa-logger';
 import PassportGoogleService from './services/passport';
 import { keys } from './config/keys';
 import { MiddlewareFunction } from './types';
+import GroupSeeder from './database/seed/seedGroups';
 
 export default class App {
 
@@ -34,8 +35,13 @@ export default class App {
         this.initDefaultConfig();
         this.routes();
         this.initStatic();
+        App.initSeed();
         App.initSchedulers();
     }
+
+    private static initSeed(): void {
+        GroupSeeder.withoutBar().then(() => console.log('Group seeded')).catch(console.log);
+    };
 
     private static initSchedulers(): void {
         new ScheduleController().databaseScheduler();

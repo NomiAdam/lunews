@@ -1,5 +1,5 @@
 import {Database} from 'sqlite3';
-import {connection} from '../../services/nntp';
+import { getConnectionInstance } from '../../services/nntp';
 import ProgressBar from '../../setup/ProgressBar';
 import db from '../db';
 
@@ -33,7 +33,7 @@ class GroupSeeder {
 
     public static run() {
         return new Promise(async (resolve, reject) => {
-
+            const connection = getConnectionInstance();
             await connection.connect();
 
             const groupList: string[] = await connection.listGroups();
@@ -68,7 +68,7 @@ class GroupSeeder {
 
     public static withoutBar() {
         return new Promise(async (resolve, reject) => {
-
+            const connection = getConnectionInstance();
             await connection.connect();
 
             const groupList: string[] = await connection.listGroups();

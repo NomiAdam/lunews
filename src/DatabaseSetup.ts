@@ -1,5 +1,5 @@
-import schema from './database/schema/index';
-import seed from './database/seed/index';
+import schema from './database/schema';
+import seed from './database/seed';
 
 const Setup = async () => {
     try {
