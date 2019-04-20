@@ -1,6 +1,6 @@
 # LuNews
 
-![LuNews logo](https://github.com/NomiAdam/lunews/master/client/public/logo.png)
+![LuNews logo](https://github.com/NomiAdam/lunews/blob/master/client/public/logo.png)
 
 > Usenet reader project for my bachelor work
 
