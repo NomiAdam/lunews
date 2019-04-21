@@ -22,8 +22,7 @@
 // Using Docker
 
 1.	docker pull nomiadam/lunews
-2.	docker build -t nomiadam/lunews
-3.	docker run --name lunews -p 443:<port defined in .env file> -d nomiadam/lunewsa –env-file <path to .env file>
+2.	docker run --env-file=<path to .env> --name lunews -p 443:<port defined in .env file> -d nomiadam/lunews
 ```
 
 ## .env file
