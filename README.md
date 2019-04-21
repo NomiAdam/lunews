@@ -6,6 +6,12 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Requirements
+
+> Node.js v11.9.0 or newer
+ 
+> NPM 6.9.0 or newer
+
 ## Install
 
 > Note that commands must go in given order and .env file must be present in working directory

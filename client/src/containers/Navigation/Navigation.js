@@ -7,9 +7,9 @@ import SuspenseLoader from '../../components/SuspenseLoader';
 const GroupList = lazy(() => import('../GroupList'));
 const Setting = lazy(() => import( '../Setting'));
 
-const containerStyle = { borderRight: `1px solid ${ lightTheme.lightBlue }` };
+const containerStyle = { borderRight: `1px solid ${ lightTheme.lightGrey }` };
 const MemoizedContainer = memo(({ isMobile, setting }) => (
-    <Container style={ containerStyle } height="100vh">
+    <Container style={ isMobile ? undefined : containerStyle } height="100vh">
         <SuspenseLoader>
             <FadeIn>
                 { setting ? <Setting /> : <GroupList isMobile={ isMobile } /> }
